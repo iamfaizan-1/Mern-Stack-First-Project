@@ -12,7 +12,16 @@ function Navbar() {
 <div className="flex gap-10 items-center">
     <div className="flex   items-center bg-primary sm:w-[250px] w-[150px] gap-2 rounded-3xl sm:py-3 py-1 ps-[10px]">
     <IoSearch className="sm:text-xl text-[13px] text-gray-600"/>
-    <input type="text" placeholder="Search" className="sm:w-[100px] w-[60px] sm:text-[14px] text-[12px]" />
+    <input type="text" placeholder="Search" className="w-full
+    border-none
+   outline-none
+    rounded-xl
+    
+    focus:border-pink-500
+    focus:ring-2
+    focus:ring-red-200
+    transition
+    duration-300  ps-1 sm:w-[180px] w-[60px] sm:text-[14px] text-[12px]" />
 </div>
 
 <div>
