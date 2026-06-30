@@ -10,7 +10,7 @@ function Feed() {
 
 useEffect(()=>{
 
-    axios.get("http://localhost:3000/posts")
+    axios.get("http://localhost:3000/api/posts")
     .then((res)=>{
       setPosts(res.data.post)  
     })

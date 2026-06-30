@@ -8,16 +8,16 @@ function Footer() {
   return (
     <div className="fixed bottom-0 left-0 w-full flex justify-center sm:gap-25 gap-10 bg-white h-[50px] items-center text-[18px] sm:text-[25px]">
 
-<HiHome />
-<MdExplore />
-<Link to="/create-post">
-<HiOutlinePlus />
-</Link>
+      <HiHome />
+      <MdExplore />
+      <Link to="/create-post">
+        <HiOutlinePlus />
+      </Link>
 
 
-<BiSolidVideos />
+      <BiSolidVideos />
 
-<FaShare />
+      <FaShare />
     </div>
   )
 }
